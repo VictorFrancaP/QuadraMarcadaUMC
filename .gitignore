@@ -1,0 +1,27 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependências
+node_modules/
+.env
+.vscode/
+
+# Arquivos temporários
+*.swp
+*.swo
+*.tmp
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Pastas de build
+dist/
+build/
+out/
