@@ -11,6 +11,12 @@
 
 O **Quadra Marcada** é uma aplicação web desenvolvida para facilitar o processo de aluguel de quadras esportivas. A plataforma conecta jogadores que buscam locais para suas partidas e os proprietários que possuem quadras disponíveis. 
 
+Esse projeto foi desenvolvido em trio, sendo:
+
+- [Leonardo Tavares](https://github.com/LeonardoTavDev14)
+- [Ryan Gustavo Valentim](https://github.com/ryangvdelima)
+- [Victor Hugo França](https://github.com/VictorFrancaP)
+
 ### 🚩 **Resolvemos**
 - Dificuldade em encontrar quadras disponíveis;
 - Falta de centralização nas reservas, que geralmente são feitas via telefone ou WhatsApp;
