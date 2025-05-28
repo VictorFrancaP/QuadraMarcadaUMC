@@ -1,0 +1,109 @@
+.containerInicio {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../assets/soccer.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  animation: slideUp 1s ease-in-out;
+}
+
+.containerTexts h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.containerTexts p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.containerButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.containerButtons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  background-color: #4f46e5;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.containerButtons button:hover {
+  transform: scale(1.05);
+  background-color: #3b36b0;
+}
+
+.buttonOne::before {
+  content: "";
+  background-image: url("https://cdn-icons-png.flaticon.com/512/4050/4050240.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+
+.buttonTwo::before {
+  content: "";
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1654/1654322.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 600px) {
+  .containerButtons {
+    flex-direction: row;
+  }
+}
