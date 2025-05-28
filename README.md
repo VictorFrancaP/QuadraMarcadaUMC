@@ -25,7 +25,6 @@ Esse projeto foi desenvolvido em trio, sendo:
 ### 🎯 **Objetivos**
 - Permitir reservas online de quadras de forma simples e rápida;
 - Gerenciar perfis de usuários (jogadores) e proprietários de quadras;
-- Disponibilizar um chat interno para comunicação direta;
 - Facilitar pagamentos e controle de reservas pela própria plataforma.
 
 ## 🚀 Instruções de Instalação e Uso
@@ -33,7 +32,7 @@ Esse projeto foi desenvolvido em trio, sendo:
 ### 🔧 **Tecnologias Utilizadas**
 - Backend: Node.js + Express
 - Frontend: ReactJS
-- Banco de Dados: MySQL
+- Banco de Dados: MongoDB
 - Ambiente de desenvolvimento: Visual Studio Code / MongoDB
 
 ### ⚙️ **Instalação**
@@ -140,6 +139,7 @@ http://localhost:3000
       ├── models
       ├── utils
       ├── app.js
+      ├── services
       ├── routes.js
       └── server.js
 /frontend
