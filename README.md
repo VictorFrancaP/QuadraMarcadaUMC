@@ -17,6 +17,12 @@ Esse projeto foi desenvolvido em trio, sendo:
 - [Ryan Gustavo Valentim](https://github.com/ryangvdelima)
 - [Victor Hugo França](https://github.com/VictorFrancaP)
 
+## 📧 Documentação 
+
+Nossa documentação seguindo as normas ABNT, está abaixo:
+
+- [PDF] (https://drive.google.com/file/d/1CGCBmulx85icRjTjuUv8ywXiDIIzlzpg/view?usp=sharing)
+
 ### 🚩 **Resolvemos**
 - Dificuldade em encontrar quadras disponíveis;
 - Falta de centralização nas reservas, que geralmente são feitas via telefone ou WhatsApp;
