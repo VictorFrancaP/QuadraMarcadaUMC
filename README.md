@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido em trio, sendo:
 
 Nossa documentação seguindo as normas ABNT, está abaixo:
 
-- [PDF] (https://drive.google.com/file/d/1CGCBmulx85icRjTjuUv8ywXiDIIzlzpg/view?usp=sharing)
+- [PDF](https://drive.google.com/file/d/1CGCBmulx85icRjTjuUv8ywXiDIIzlzpg/view?usp=sharing)
 
 ### 🚩 **Resolvemos**
 - Dificuldade em encontrar quadras disponíveis;
